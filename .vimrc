@@ -55,7 +55,7 @@ set backspace=indent,eol,start
   inoremap ( ()<Esc>i  
   inoremap [ []<Esc>i
   inoremap { {}<Esc>i
-  inoremap < <> <Esc>i
+  inoremap < <><Esc>i
   inoremap <expr> } JumpOver('}')
   inoremap <expr> ) JumpOver(')')
   inoremap <expr> ] JumpOver(']')
